@@ -18,7 +18,7 @@ namespace Wordle
 			Console.WriteLine("游戏中会随机生成一个五个字母组成的常见单词，玩家通过不断猜测来猜出所给单词");
 			Console.WriteLine("游戏难度有easy和hard两种选择，请直接输入你的选择...");
 			Console.WriteLine("(hard难度过难，这边还是建议输入easy喵...)");
-
+			Console.ReadKey();
 			string s=Console.ReadLine();
 
 			if (s == "easy") {
